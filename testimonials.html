@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials — Luxeland Properties</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo-wrap" href="index.html">
+      <img src="logo.png" alt="Luxeland Investment Ltd">
+    </a>
+    <svg class="nav-curve" viewBox="0 0 80 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M 0 0 C 60 0, 20 40, 60 80 L 0 80 Z" fill="white"/>
+    </svg>
+    <div class="nav-right">
+        <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="properties.html">Properties</a>
+      <a href="testimonials.html" class="active">Testimonials</a>
+      <a href="diaspora.html">Diaspora</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="nav-cta">Get Started</a>
+    </div>
+    <div class="hamburger" onclick="toggleMobile()" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="closeMobile()">Home</a>
+    <a href="about.html" onclick="closeMobile()">About</a>
+    <a href="properties.html" onclick="closeMobile()">Properties</a>
+    <a href="testimonials.html" onclick="closeMobile()">Testimonials</a>
+    <a href="diaspora.html" onclick="closeMobile()">Diaspora</a>
+    <a href="contact.html" onclick="closeMobile()">Contact</a>
+  </div>
+  <a class="whatsapp-float" href="https://wa.me/25471052065660" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+
+  <main class="page-content">
+    <div class="page-hero">
+      <div class="breadcrumb"><a href="index.html">Home</a> › <span>Testimonials</span></div>
+      <h1>What Our Clients Say</h1>
+      <p>Thousands of satisfied clients trust Luxeland to help them achieve their property dreams.</p>
+    </div>
+
+    <section class="testimonials-section">
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-quote-icon">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">Luxeland made buying my first plot incredibly easy. They handled everything from the legal process to the site visit. I'm now a proud landowner in Kitengela!</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="James"></div>
+            <div><div class="testi-name">James Mwangi</div><div class="testi-role">First-time Buyer, Nairobi</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote-icon">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">As a Kenyan living in the UK, I was worried about investing back home. Luxeland's diaspora team gave me confidence, virtual tours, and complete peace of mind.</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&q=80" alt="Grace"></div>
+            <div><div class="testi-name">Grace Wanjiku</div><div class="testi-role">Diaspora Investor, London UK</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote-icon">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">Sold my property in Karen through Luxeland and got more than the asking price. Their market knowledge and network are unmatched. Highly recommend!</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Peter"></div>
+            <div><div class="testi-name">Peter Kamau</div><div class="testi-role">Property Seller, Karen</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote-icon">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">The team at Luxeland is professional, responsive, and genuinely caring. They helped me find a commercial space that perfectly fits my business needs.</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Fatuma"></div>
+            <div><div class="testi-name">Fatuma Hassan</div><div class="testi-role">Business Owner, Mombasa</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote-icon">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">I bought 3 plots through Luxeland over 2 years. Each transaction was smooth, titles were clean, and the after-sale support has been excellent. My go-to firm.</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="David"></div>
+            <div><div class="testi-name">David Ochieng</div><div class="testi-role">Repeat Investor, Kisumu</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote-icon">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">My family in Canada trusted Luxeland to acquire land for our parents in Nakuru. The process was completely virtual, secure, and delivered in 6 weeks. Amazing!</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80" alt="Mary"></div>
+            <div><div class="testi-name">Mary Njoroge</div><div class="testi-role">Diaspora Client, Toronto Canada</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <h2>Join 1,200+ Happy Property Owners</h2>
+      <p>Start your journey with Kenya's most trusted real estate partner today.</p>
+      <a href="contact.html" class="btn btn-outline">Get In Touch →</a>
+    </section>
+  </main>
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-top-bar"></div>
+    <div class="footer-body">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="footer-logo-block">
+          <img src="logo.png" alt="Luxeland Investimate Ltd">
+          <div class="footer-brand-title">
+            <span class="f-luxe">LUXE</span><span class="f-land">LAND</span>
+          </div>
+          <span class="footer-inv-text">Investimate Ltd</span>
+        </div>
+        <p class="footer-desc">Your trusted real estate partner in Kenya. Verified title deeds, transparent deals, and lasting value across 30+ prime locations.</p>
+        <div class="footer-badge">🏡 Title Deed Is Our Language</div>
+        <div class="footer-socials">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Twitter">𝕏</a>
+          <a href="#" title="Instagram">ig</a>
+          <a href="#" title="TikTok">tk</a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <div class="footer-col-title">Quick Links</div>
+        <div class="footer-col-divider"></div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="properties.html">Properties</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="diaspora.html">Diaspora</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <!-- Our Projects -->
+      <div class="footer-col">
+        <div class="footer-col-title">Our Projects</div>
+        <div class="footer-col-divider"></div>
+        <a href="properties.html">Imani Gardens</a>
+        <a href="properties.html">Palm View Gardens</a>
+        <a href="properties.html">Suncrest Gardens</a>
+        <a href="properties.html">Nashipai Gardens</a>
+        <a href="properties.html">Olive Gardens</a>
+        <a href="properties.html">View All Projects →</a>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col contact-col">
+        <div class="footer-col-title">Contact Us</div>
+        <div class="footer-col-divider"></div>
+        <a href="#">📍 Kitengela Chuna Mall, Yukos</a>
+        <a href="tel:+254710520656">📞 +254 710 520 656</a>
+        <a href="mailto:info@luxeland.co.ke">✉️ info@luxeland.co.ke</a>
+        <a href="https://wa.me/2547105206566" target="_blank">💬 WhatsApp Us</a>
+        <a href="http://www.luxeland.co.ke" target="_blank">🌐 www.luxeland.co.ke</a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Luxeland Investimate Ltd. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Service</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
