@@ -42,7 +42,7 @@ const slideMessages = [
     title:    'Own Land from<br>as Low as <em>KSH 299K</em>',
     subtitle: 'Flexible payment options make land ownership possible for everyone — start your journey today with a small deposit.',
     btn1:     { text: 'See All Plots →',      href: 'properties.html', cls: 'btn btn-red' },
-    btn2:     { text: 'WhatsApp Us',          href: 'https://wa.me/254700000000', cls: 'btn btn-outline' },
+    btn2:     { text: 'WhatsApp Us',          href: 'https://wa.me/254710520656', cls: 'btn btn-outline' },
   },
   {
     badge:    '📜 100% Verified Titles',
